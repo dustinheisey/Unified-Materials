@@ -1,0 +1,33 @@
+{
+  "name": "unified-materials",
+  "license": "MIT",
+  "private": "true",
+  "author": "Dustin Heisey",
+  "type": "module",
+  "imports": {
+    "#generators": {
+      "default": "./generators/index.ts"
+    }
+  },
+  "scripts": {
+    "format": "prettier . --write",
+    "lint:types": "tsc --noEmit",
+    "lint:scripts": "eslint --flag unstable_native_nodejs_ts_config  --config=eslint.config.ts . --fix",
+    "lint": "npm run lint:types && npm run lint:scripts",
+    "dev": "node --watch ./src/scripts/index.ts",
+    "build": "cd src/scripts && node ./index.ts",
+    "test": "cd src/scripts && node ./test.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.3.0",
+    "eslint": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "hytale-generators": "^0.2.4",
+    "prettier": "3.8.1",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "type-fest": "^5.4.4",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.56.0"
+  }
+}
