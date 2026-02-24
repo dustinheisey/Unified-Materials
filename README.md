@@ -1,6 +1,6 @@
 # Unified Materials
 
-This is the source code for the Unified Materials Hytale Plugin. This plugin currently adds materials that can help other mods construct recipes and mechanics without needing to recreate the same ore/ingot for the 100th time. These materials are based in chemistry and materials science and are suited for mods going for a realism aesthetic.
+This plugin currently adds materials that can help other mods construct recipes and mechanics without needing to recreate the same ore/ingot for the 100th time. These materials are based in chemistry and materials science and are suited for mods going for a realism aesthetic.
 
 Currently it provides the following:
 
