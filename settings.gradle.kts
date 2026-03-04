@@ -16,7 +16,7 @@ hytale {
     manifest {
         Group = "Inconvenient"
         Name = "Unified Materials"
-        Version = "0.3.0"
+        Version = "0.3.1"
         Description = "Lots of materials for use in other mods"
         Authors = listOf(HytaleManifest.Author("Inconvenient Dev", "", "https://inconvenient.gg"))
         Website = "https://www.curseforge.com/hytale/mods/unified-materials"
