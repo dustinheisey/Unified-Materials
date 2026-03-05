@@ -14,7 +14,8 @@
     "dev": "node --watch ./src/scripts/index.ts",
     "dev:clear": "npm run clear && node --watch ./src/scripts/index.ts",
     "build": "cd src/scripts && node ./index.ts",
-    "build:clear": "npm run clear && cd src/scripts && node ./index.ts"
+    "build:clear": "npm run clear && cd src/scripts && node ./index.ts",
+    "server": "./gradlew devServer"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
