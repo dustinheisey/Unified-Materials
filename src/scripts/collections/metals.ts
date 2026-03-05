@@ -144,7 +144,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 23,
     ores: { baseName: "Vanadinite", color: "#B24A2A" },
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Chromium",
@@ -448,7 +448,7 @@ export const metals: MetalCfg[] = [
     color: "#6FAE5B",
     atomicNumber: 61,
     atomicGroup: "Lanthanides",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Samarium",
@@ -546,7 +546,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 73,
     ores: { baseName: "Tantalite", color: "#1E1E1E" },
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Tungsten",
@@ -555,7 +555,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 74,
     ores: { baseName: "Wolframite", color: "#2A1F1B" },
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Rhenium",
@@ -564,7 +564,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 75,
     ores: { baseName: "Rheniite", color: "#6B6F7A" },
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Osmium",
@@ -573,7 +573,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 76,
     include: ["dust"],
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Iridium",
@@ -581,7 +581,7 @@ export const metals: MetalCfg[] = [
     color: "#707880",
     atomicNumber: 77,
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Platinum",
@@ -590,7 +590,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 78,
     ores: { baseName: "Sperrylite", color: "#AEB4BB" },
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Gold",
@@ -599,7 +599,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 79,
     include: ["dust"],
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Thallium",
@@ -617,7 +617,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 82,
     ores: { baseName: "Galena" },
     atomicGroup: "Post Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Bismuth",
@@ -692,7 +692,7 @@ export const metals: MetalCfg[] = [
     color: "#5E7563",
     atomicNumber: 91,
     atomicGroup: "Actinides",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Uranium",
@@ -701,7 +701,7 @@ export const metals: MetalCfg[] = [
     atomicNumber: 92,
     ores: { baseName: "Uraninite" },
     atomicGroup: "Actinides",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Neptunium",
@@ -709,7 +709,7 @@ export const metals: MetalCfg[] = [
     color: "#2F7E6B",
     atomicNumber: 93,
     atomicGroup: "Actinides",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Plutonium",
@@ -717,7 +717,7 @@ export const metals: MetalCfg[] = [
     color: "#4B7A2A",
     atomicNumber: 94,
     atomicGroup: "Actinides",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Americium",
@@ -749,7 +749,7 @@ export const metals: MetalCfg[] = [
     color: "#8CA33B",
     atomicNumber: 98,
     atomicGroup: "Actinides",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Einsteinium",
@@ -798,7 +798,7 @@ export const metals: MetalCfg[] = [
     color: "#8B1FA9",
     atomicNumber: 104,
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Dubnium",
@@ -806,7 +806,7 @@ export const metals: MetalCfg[] = [
     color: "#1E3A8A",
     atomicNumber: 105,
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Seaborgium",
@@ -814,7 +814,7 @@ export const metals: MetalCfg[] = [
     color: "#2E8B74",
     atomicNumber: 106,
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Bohrium",
@@ -822,7 +822,7 @@ export const metals: MetalCfg[] = [
     color: "#84CC16",
     atomicNumber: 107,
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Hassium",
@@ -830,7 +830,7 @@ export const metals: MetalCfg[] = [
     color: "#FA6BD1",
     atomicNumber: 108,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Meitnerium",
@@ -838,7 +838,7 @@ export const metals: MetalCfg[] = [
     color: "#FFE44D",
     atomicNumber: 109,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Darmstadtium",
@@ -846,7 +846,7 @@ export const metals: MetalCfg[] = [
     color: "#FACC15",
     atomicNumber: 110,
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Roentgenium",
@@ -854,7 +854,7 @@ export const metals: MetalCfg[] = [
     color: "#F97316",
     atomicNumber: 111,
     atomicGroup: "Transition Metals",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Copernicium",
@@ -862,7 +862,7 @@ export const metals: MetalCfg[] = [
     color: "#FF8A2A",
     atomicNumber: 112,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Nihonium",
@@ -870,7 +870,7 @@ export const metals: MetalCfg[] = [
     color: "#E11D48",
     atomicNumber: 113,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Flerovium",
@@ -878,7 +878,7 @@ export const metals: MetalCfg[] = [
     color: "#7C3AED",
     atomicNumber: 114,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Moscovium",
@@ -886,7 +886,7 @@ export const metals: MetalCfg[] = [
     color: "#22C55E",
     atomicNumber: 115,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Livermorium",
@@ -894,7 +894,7 @@ export const metals: MetalCfg[] = [
     color: "#B91C1C",
     atomicNumber: 116,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Tennessine",
@@ -902,7 +902,7 @@ export const metals: MetalCfg[] = [
     color: "#14B8A6",
     atomicNumber: 117,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   },
   {
     id: "Organesson",
@@ -910,7 +910,7 @@ export const metals: MetalCfg[] = [
     color: "#270244",
     atomicNumber: 118,
     atomicGroup: "Unknown",
-    bar: { baseMask: "ultra-dense" }
+    bar: { baseMask: "dense" }
   }
 ];
 

@@ -30,7 +30,7 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
     id: "Alnico",
     description: "AlNiCoFe",
     color: "#6b4a3a",
-    baseMask: "ultra-dense",
+    baseMask: "denser",
     input: [
       { id: "Ingredient_Bar_Aluminum", name: "Aluminum" },
       { id: "Ingredient_Bar_Nickel", name: "Nickel" },
@@ -63,7 +63,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Rose_Metal",
     description: "BiPbSn",
-    baseMask: "medium",
     color: "#b9c2cb",
     input: [
       { id: "Ingredient_Bar_Bismuth", name: "Bismuth" },
@@ -74,7 +73,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Nichrome",
     description: "NiCr",
-    baseMask: "medium",
     color: "#9f9a87",
     input: [
       { id: "Ingredient_Bar_Nickel", name: "Nickel" },
@@ -85,7 +83,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
     id: "Ferrochrome",
     description: "FeCr",
     color: "#586457",
-    baseMask: "medium",
     input: [
       { id: "Ingredient_Bar_Iron", name: "Iron" },
       { id: "Ingredient_Bar_Chromium", name: "Chromium" }
@@ -95,7 +92,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
     id: "Megallium",
     description: "CoCrMo",
     color: "#466a7d",
-    baseMask: "medium",
     input: [
       { id: "Ingredient_Bar_Cobalt", name: "Cobalt" },
       { id: "Ingredient_Bar_Chromium", name: "Chromium" },
@@ -105,7 +101,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Talonite",
     description: "CoCrW",
-    baseMask: "medium",
     color: "#3c5b6e",
     input: [
       { id: "Ingredient_Bar_Cobalt", name: "Cobalt" },
@@ -127,7 +122,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Brass",
     description: "CuZn",
-    baseMask: "medium",
     color: "#d6a33a",
     input: [
       { id: "Ingredient_Bar_Copper", name: "Copper" },
@@ -168,7 +162,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Constantan",
     description: "CuNi",
-    baseMask: "medium",
     color: "#b0a79b",
     input: [
       { id: "Ingredient_Bar_Copper", name: "Copper" },
@@ -178,7 +171,7 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Hepatizon",
     description: "CuAuAg",
-    baseMask: "ultra-dense",
+    baseMask: "denser",
     color: "#3b2a3e",
     input: [
       { id: "Ingredient_Bar_Copper", name: "Copper" },
@@ -200,7 +193,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Electrum",
     description: "AuAg",
-    baseMask: "medium",
     color: "#d9cf6a",
     input: [
       { id: "Ingredient_Bar_Gold", name: "Gold" },
@@ -210,7 +202,7 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Purple_Gold",
     description: "AuAl",
-    baseMask: "ultra-dense",
+    baseMask: "denser",
     color: "#7c4aa8",
     input: [
       { id: "Ingredient_Bar_Gold", name: "Gold" },
@@ -220,7 +212,7 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Blue_Gold",
     description: "AuIn",
-    baseMask: "ultra-dense",
+    baseMask: "denser",
     color: "#2f63c7",
     input: [
       { id: "Ingredient_Bar_Gold", name: "Gold" },
@@ -230,7 +222,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Gray_Gold",
     description: "AuPd",
-    baseMask: "medium",
     color: "#b7ad9e",
     input: [
       { id: "Ingredient_Bar_Gold", name: "Gold" },
@@ -240,7 +231,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Rose_Gold",
     description: "AuCu",
-    baseMask: "medium",
     color: "#d38b7f",
     input: [
       { id: "Ingredient_Bar_Gold", name: "Gold" },
@@ -262,7 +252,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
     id: "Invar",
     description: "FeNi",
     color: "#8e979f",
-    baseMask: "medium",
     input: [
       { id: "Ingredient_Bar_Iron", name: "Iron" },
       { id: "Ingredient_Bar_Nickel", name: "Nickel" }
@@ -282,7 +271,6 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Stainless_Steel",
     description: "FeCrNi",
-    baseMask: "medium",
     color: "#9aa3ad",
     input: [
       { id: "Ingredient_Bar_Iron", name: "Iron" },
@@ -293,7 +281,7 @@ export const alloys: (MaterialCfg & { input?: { id: string; name: string }[] })[
   {
     id: "Wrought_Iron",
     description: "FeSi",
-    baseMask: "ultra-dense",
+    baseMask: "denser",
     color: "#1b2835",
     input: [
       { id: "Ingredient_Bar_Iron", name: "Iron" },

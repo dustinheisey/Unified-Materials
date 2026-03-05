@@ -6,7 +6,8 @@ const categoryTypes: Child[] = [
   { id: "Gems", icon: "Natural-Ore" },
   "Dusts",
   "Ingots",
-  "Alloys"
+  "Alloys",
+  "Rods"
 ];
 
 export const registerCategories = () => {
